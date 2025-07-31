@@ -62,7 +62,7 @@ function createRow(id,taskName, taskText, deadline,taskComplite,  )
       if (x.status ==200 )
         {
           const json=x.response;
-          console.log(json);
+          //console.log(json);
           const tasks =   json.tasks;
           for (let i=0;i < tasks.length; i++)
             {
