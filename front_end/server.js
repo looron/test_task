@@ -13,7 +13,6 @@ let id = formData.get("id");
   if (confirm("вы точно хотите удалить эту задачу?"))
   {
   x.open('delete','http://localhost:8090/api/tasks/'+id,true);
-  console.log('http://localhost:8090/api/tasks/'+id);
   x.responseType="text";
   x.setRequestHeader("Content-Type", "text/plain;charset=UTF-8");
   x.send();
