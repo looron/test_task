@@ -1,7 +1,7 @@
 
 let form =
 document.getElementsByTagName('form');
-console.log(form[0]);
+
 
 //триггер-перехватчик на удаление записи при нажатии кнопки формы
 form[1].addEventListener('submit',function ()
