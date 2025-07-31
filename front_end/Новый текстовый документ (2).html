@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+ 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Задачник</title>
+
+
+    
+    
+    <meta name="author" content="loo">
+
+    <meta name="description" content="This is an example page to demonstrate your task">
+
+
+  
+  </head>
+  <body>
+    <h1>добро пожаловать</h1>
+
+    
+     <form id="form_add" > 
+
+    <p><input type="text" name="task_name" placeholder=" название задачи" /></p>
+    <p></p><input type="text" name="task_text" placeholder=" содержание задачи"/></p>
+    <p></p><input type="text" name="deadline" placeholder=" дедлайн задачи"/></p>
+    <button type="submit" id="add">добавить задачу </button>
+    </form>
+    
+    <p >Ваши задачи</p>
+   <div id="content">
+   
+
+   <table id="table">
+    <tr>
+        <th>id</th>
+        <th>title</th>
+        <th>description</th>
+        <th>dedline</th>
+        <th>com</th>
+    </tr>
+   </table>
+   </div>
+
+   <form id ="form_del">
+    <input  name="id" type="text" placeholder=" id задачи, которую хотите удалить"/>
+   
+    <button type="submit" id="del"> удалить задачу </button>
+  </form>
+
+    <script src="script.js"></script> 
+    <script src="server.js"></script> 
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+    "tests":[{
+    "id_task": 1,
+    "task_name": "подключение",
+    "task_text": "вывести эту задачу в браузере",
+    "_complite": true
+},
+{
+    "id_task": 2,
+    "task_name": "ghj,f",
+    "task_text": "вы",
+    "_complite": false
+},
+{
+    "id_task": 6,
+    "task_name": "test2",
+    "task_text": "eeew",
+    "_complite": false
+}]
+}

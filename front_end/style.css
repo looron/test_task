@@ -1,0 +1,55 @@
+html {
+  background-color: wheat;
+  font-size: 20px;
+}
+
+ul {
+  background: rgb(220, 173, 106);
+  padding: 10px;
+  border: 1px solid rgb(144, 41, 203);
+}
+
+li {
+  margin-left: 20px;
+}
+
+table
+{
+  padding: auto;
+}
+.active
+{
+  background-color: rgb(121, 184, 229);
+}
+
+  
+tr
+{
+  border-style: double;
+border: 2px solid black;
+background-color: azure;
+}
+
+td
+{
+  border: 2px solid black;
+  /* background-color: red; */
+
+}
+/*
+td:active
+{
+  border: 2px solid black;
+  background-color: rgb(126, 39, 220);
+}
+  */
+th
+{
+background-color: aqua;
+}
+
+
+  style
+  {
+    background-color: green;
+  }
